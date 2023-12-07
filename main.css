@@ -1,0 +1,16 @@
+.expand-on-hover-Title {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: top left;
+}
+.expand-on-hover-Title:hover {
+    transform: scale(1.1);
+}
+
+.expand-on-hover-Link {
+    display: inline-block;
+    transition: transform 0.1s ease-in-out;
+}
+.expand-on-hover-Link:hover {
+    transform: scale(1.1);
+}
