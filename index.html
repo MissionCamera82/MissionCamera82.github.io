@@ -9,9 +9,14 @@
     
     <body style="background-color: rgb(72, 140, 0);">
         <h3>
+            <button type="button" onclick="sessionStorage.setItem('persist_splash_text', Math.round(Math.random() * (4 - 1)) + 1); location.reload()">
+                new splash text
+            </button>
+            <div>
             <a href="index.html">
                 <iframe src="header.html" style="width: 800px; height: 200px; border: 0px;"></iframe>
             </a>
+            </div>
             <div>
                 <a href="links.html" style="color: aliceblue;" class="expand-on-hover-Link">
                    Hyperlinks
@@ -26,7 +31,6 @@
                 <a href="fish.html" style="color: aliceblue;" class="expand-on-hover-Link">
                     fish
                 </a>
-                <div style="color: aliceblue; background-color: red; margin-top: 1%; margin-bottom: 3%;">no title card on fish, please use go back!</div>
             </div>
 
        </h3>
